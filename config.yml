@@ -36,7 +36,7 @@ params:
         # imageHeight: 120
         buttons:
             - name: Don't click me
-              url: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+              url: https://youtu.be/OInIKLmNU_8
     mainSections:
       - notes
 
