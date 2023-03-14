@@ -1,0 +1,67 @@
+baseURL: # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
+title: miguelgr.notes
+paginate: 5
+theme: charlolamode
+
+menu:
+    main:
+        - name: Notes
+          url: /notes/
+          weight: 20
+        # - name: Tags
+        #   url: /tags/
+        #   weight: 10
+
+params:
+    defaultTheme: auto
+    ShowShareButtons: false
+    ShowReadingTime: true
+    displayFullLangName: true
+    ShowBreadCrumbs: true
+    ShowCodeCopyButtons: true
+    ShowToc: true
+
+    profileMode:
+        # Disable to populate home page with 'mainSections' content
+        enabled: true
+        imageUrl: "/images/profile.png"
+        imageTitle: skrokodile
+        title: Miguel García Rodríguez
+        description: |
+          I am a software developer
+
+          Passionate about web3, skateboarding,  music, and movies.
+
+        # imageWidth: 120
+        # imageHeight: 120
+        buttons:
+            - name: Don't click me
+              url: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+    mainSections:
+      - notes
+
+    socialIcons:
+        - name: github
+          url: "https://github.com/miguelgr"
+        - name: linkedin
+          url: "https://www.linkedin.com/in/miguel-garcia-rodriguez-9ab06455"
+        - name: bandcamp
+          url: "https://bandcamp.com/miguelgr"
+        - name: discogs
+          url: "https://www.discogs.com/user/miguelgr/collection"
+
+    # change favicon in images folder (icon for web tab)
+    assets:
+          favicon: "/images/favicon.ico"
+          favicon16x16: "/images/favicon-16x16.png"
+          favicon32x32: "/images/favicon-32x32.png"
+          apple_touch_icon: "/images/apple-touch-icon.png"
+          safari_pinned_tab: "/images/apple-touch-icon.png"
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+enableEmoji: true
+pygmentsUseClasses: true
+
+minify:
+    disableXML: true
