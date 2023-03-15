@@ -328,11 +328,7 @@ https://github.com/TheDiscordian/native-ipfs-building-blox
 
 Install RUST
 Install Tauri
-`create-tauri-app`
-
 https://tauri.app/v1/references/architecture/inter-process-communication/
-
-
 
 ## ML + IPFS
 
@@ -362,10 +358,7 @@ https://solid.mit.edu/
 ### Companies
 
 - [Iterative AI](https://iterative.ai/)
-
-
-
-[Protocol Labs Notion](https://pl-strflt.notion.site/PL-EngRes-Public-b5086aea86ed4f81bc7d0721c6935e1e)
+- [Protocol Labs Notion](https://pl-strflt.notion.site/PL-EngRes-Public-b5086aea86ed4f81bc7d0721c6935e1e)
 
 
 ### Medium synopsis
@@ -377,3 +370,5 @@ IPFS is more ideal for permanent data storage, like for digital music, works of 
 IPFS storage is also more public, so confidentiality of data is required. This could be a violation for certain types of data storage which exposes private data (e.g. GDPR Rules). There are also available scalable solutions for data storage on AWS and Azure cloud that meet privacy, security and compliance. In my own opinion I don’t feel the need to distribute personal information the way IPFS stores data. For content that is made publicly available, using IPFS can provide a proof of authenticity to the owner of that content. This can secure a creator’s work like art by proving their ownership which then allows them to collect royalties and prevent others from taking credit for something they did not create.
 
 It seems IPFS delivers fast and secure fault tolerant file storage for content. However, it may not be suitable for financial and personal data that requires strict regulation of how the data is stored and protected. This is also not recommended for storing files that change frequently due to updates, like active log files that continuously record data. The storage of data on the blockchain serves a different purpose, and IPFS provides that solution. As IPFS evolves, it could use a privacy layer that can hide personal data that is also encrypted at rest, so there would be no violations of exposing anything confidential
+
+https://betterprogramming.pub/modern-way-to-host-a-site-on-ipfs-7941b65d27c3
